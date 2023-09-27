@@ -1,0 +1,97 @@
+:root{
+    /*color*/
+    --color-primario: rgb(53, 33, 102);
+    --color-primario-luz1: rgb(85, 67, 127);
+    --color-primario-luz2: rgb(120, 105, 156);
+    --color-primario-sombra1: rgb(41, 22, 86);
+    --color-primario-sombra2: rgb(30, 15, 62);
+
+    --color-secundario: rgb(168, 63, 0);
+    --color-secundario-luz1: rgb(202, 86, 17);
+    --color-secundario-luz2: rgb(230, 122, 58);
+    --color-secundario-sombra1: rgb(133, 49, 0);
+    --color-secundario-sombra2: rgb(89, 33, 0);
+
+    --simil-negro: rgb(7, 0, 22);
+    --simil-blanco: rgb(240, 236, 251);
+    --color-acento: rgb(255, 0, 61);
+    --color-aceptado: rgb(62, 237, 58);
+    --color-warning: rgb(253, 231, 35);
+    --color-denegado: rgb(235, 62, 65);
+}
+
+html{
+    background-color: var(--color-primario-sombra2);
+}
+
+.a{
+    height: 450px;
+}
+
+header, footer{
+    background-color: var(--color-primario);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 4px;
+    margin: 0%;
+}
+
+header{
+    height: 100px;
+    align-items: center;
+    padding-left: 45px;
+    padding-right: 45px;
+}
+
+.logodib{
+    width: auto;
+    height: 50px;
+}
+
+.logoname{
+    height: 25px;
+}
+
+.buscador{
+    background-color: var(--simil-blanco);
+    border-radius: 20px;
+    padding: 4px;
+    padding-left: 20px;
+    padding-right: 20px;
+    height: 45px;
+    width: 475px;
+    margin: 15px;
+    justify-content: space-between;
+    align-self: center;
+}
+
+h2{
+    color: var(--color-primario-sombra2);
+    opacity: 50%;
+}
+
+.logo, .buscador, .seccionmisjuegos{
+    display: flex;
+    align-items: center;
+}
+
+p{
+    font-size: 12px;
+    font-weight: 400;
+    line-height: auto; /* 216.667% */
+    letter-spacing: 0.36px;
+    color: var(--simil-blanco);
+}
+
+footer{
+    height: 275px;
+    align-items: flex-start;
+}
+
+.footertxt{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    height: 275px;
+}
