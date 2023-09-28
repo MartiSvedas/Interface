@@ -8,37 +8,87 @@
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-  <div class="container">
     <header>
         <nav class="nav">
-            <div class="nav__containter">
-                <label for="menuJuegos"  class="nav__labelJuegos">
+            <div class="nav__container">
+                <label for="menuJuegos"  class="nav_labelJuegos">
                     <img src="img/iconomenu.png">
                 </label>
-                <input type="checkbox" id="menuJuegos">
-            <div class="nav__logo">
+                <input type="checkbox" id="menuJuegos" class="checkbox">
+                <div class="nav_menuJuegos">
+                    <ul >
+                        <li><a href="#" class="nav_itemJuegos">Inicio</a></li>
+                        <li><a href="#" class="nav_itemJuegos">Nuevos</a></li>
+                        <li><a href="#" class="nav_itemJuegos">Tendencia</a></li>
+                        <li><a href="#" class="nav_itemJuegos">Actualizados</a></li>
+                        <li><a href="#" class="nav_itemJuegos">Multijugador</a></li>
+                        <li><a href="#" class="nav_itemJuegos">Aventura</a></li>
+                        <li><a href="#" class="nav_itemJuegos">Pelea</a></li>
+                        <li><a href="#" class="nav_itemJuegos">Carrera</a></li>
+                        <li><a href="#" class="nav_itemJuegos">Muñecas</a></li>
+                        <li><a href="#" class="nav_itemJuegos">Superheroes</a></li>
+                        <li><a href="#" class="nav_itemJuegos">Futbol</a></li>
+                        <li><a href="#" class="nav_itemJuegos">Escape</a></li>
+                        <li><a href="#" class="nav_itemJuegos">Estrategia</a></li>
+                        <li><a href="#" class="nav_itemJuegos">Plataformas</a></li>
+                        <li><a href="#" class="nav_itemJuegos">Deportes</a></li>
+                        <li><a href="#" class="nav_itemJuegos">Puzzle</a></li>
+                        <li><a href="#" class="nav_itemJuegos">Arte</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav> 
+        <nav class="nav_usuario"> 
+            <label for="menuUsuario" class="nav_labelUsuarios">
+                <img src="img/ftusuario.png">
+            </label>   
+                <input type="checkbox" id="menuUsuario" class="checkbox">
+            <div class="nav_menuUsuario">
+                <div class="datosUsuario">
+                    <img src="img/ftusuario.png">
+                    <h2 class="nombreUsuario">Nombre del Usuario</h2>
+                    <p>emailusuario@gmail.com</p>
+                </div>
+                <div class="itemsUsuarios">
+                    <ul>
+                        <li><a href="#" class="nav_itemUsuario">Perfil</a>
+                            <img src="img/heroicons_user.png">
+                        </li>
+                        <li><a href="#" class="nav_itemUsuario">Mi Carrito</a>
+                        <img src="img/mdi_cart-outline.png"></li>
+                        <li><a href="#" class="nav_itemUsuario">Configuracion</a>
+                            <img src="img/grommet-icons_configure.png"></li>
+                        </li>
+                        <li><a href="#" class="nav_itemUsuario">Cerrar sesion</a>
+                            <img src="img/ion_log-out-outline.png"></li>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+            <div class="logo">
                 <img class="logodib" src="img/Logo.png">
                 <img class="logoname" src="img/logonombre.png">
             </div>
-            <div class="nav__buscador">
-                <h2>¿A que jugamos hoy?</h2>
+
+            <div class="buscador">
+                <h2 class="h2buscador">¿A que jugamos hoy?</h2>
                 <img src="img/iconosearch.png">
             </div>
-            <div class="nav_misJuegos">
-                <img src="img/corazon.png">
-                <p>Mis juegos</p>
+
+            <div class="seccionmisjuegos">
+                <img class="corazon" src="img/corazon.png">
+                <h2 class="misjuegos">Mis juegos</p>
             </div>
-            <label> 
-                <img src="img/ftusuario.png">
-            </label>
-        </div>
-        </nav>
+
         
+
+   
+                
     </header>
 
-    <div class="a"></div>
-
-    <footer>
+     <!-- <footer>
         <div class="footertxt">
             <div><p>Sobre nosotros</p></div>
             <div><p>Ayuda</p>
@@ -59,8 +109,8 @@
             <p>Futbol</p>
             <p>Escape</p>
             <p>Estrategia</p>
-            <p>Plataformas</p>
-            <p>Deportes</p>
+            <p>Plataformas</p> 
+            <p>Deportes</p> 
             <p>Puzzle</p>
             <p>Arte</p>
         </div>
@@ -86,8 +136,8 @@
             <p>Français</p>
             <p>Português</p>
         </div>
-    </footer>
-    </div>
+    </footer>-->
+  
 </body>
 
 </html>
