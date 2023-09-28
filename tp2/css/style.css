@@ -43,19 +43,19 @@ header, footer{
 }
 
 h2{
-font-family: Nunito;
-font-size: 19px;
-font-style: normal;
-font-weight: 700;
-line-height: 36px; /* 189.474% */
-letter-spacing: -0.095px;
+    font-family: Nunito;
+    font-size: 19px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 36px; 
+    letter-spacing: -0.095px;
 }
 h3{
     font-family: Nunito;
     font-size: 16px;
     font-style: normal;
     font-weight: 600;
-    line-height: 36px; /* 225% */
+    line-height: 36px; 
     letter-spacing: -0.08px;
 }
 p{
@@ -66,6 +66,7 @@ p{
     line-height: 25px; /* 178.571% */
     letter-spacing: 0.42px;
 }
+
 
 .nav_labelJuegos{
     position: absolute;
@@ -90,7 +91,8 @@ ul{
     list-style: none;
    
 }
-li{
+
+.nav_menuJuegos li{
     width: 200px;
     height: 36px;
     justify-content: center;
@@ -105,7 +107,7 @@ li{
     border-radius: 6px;
     border: 2px solid var(--Primario-Sombra1, #291656);
     clip-path: polygon(0 0, 0 0, 0 100%, 0% 100%);
-    transition: clip-path 0.2s ease-in-out
+    transition: clip-path 0.2s ease-out
    
 }
 .nav_itemJuegos{
@@ -116,7 +118,7 @@ li{
 
 }
 
-.nav_itemJuegos:hover{
+a:hover{
     color: var(--color-secundario);
 }
 
@@ -161,7 +163,7 @@ opacity: 0.5;
 } 
 
 
-.misjuegos:hover{
+a:hover{
     color: var(--color-secundario);
 }
 .seccionmisjuegos{
@@ -175,6 +177,9 @@ opacity: 0.5;
     top: 22px;
     right: 90px;
 }
+.misjuegos:hover{
+    color: var(--color-secundario);
+}
 
 .nav_labelUsuarios{
     position: absolute;
@@ -182,15 +187,60 @@ opacity: 0.5;
     top: 22px;
 }
 .nav_menuUsuario{
-    background-color: var(--color-primario-sombra2);
-    clip-path: polygon(0 0, 0 0, 0 100%, 0% 100%);
-    transition: clip-path 0.2s ease-in-out
-}
+    position: absolute;
+    display: block;
+    left: 85%;
+    top: 8%;
+    width: 317px;
+    height: 448px;
+    border-radius: 6px;
+    border: 1px solid var(--color-primario-sombra1);
+    background: var(--color-primario-sombra2);
+    clip-path: polygon(100% 2%, 100% 100%, 100% 100%);
+    transition: clip-path 0.3s ease-out;
+    color: var(--simil-blanco);
 
-.menuJuegos:checked ~ nav_menuUsuario{
+}
+.checkbox:checked ~ .nav_menuUsuario{
     clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+}
+
+.datosUsuario{ 
+    padding: 11%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
 
 }
+h2.nombreUsuario{
+    padding-left: 15px;
+    font-family: Nunito;
+
+}
+.nav_menuUsuario p{
+    position: absolute;
+    opacity: 0.5;
+    top: 17%;
+    left: 30%;
+}
+
+.itemsUsuarios li{
+padding-left: 20%;
+padding-bottom: 8%;
+}
+
+.nav_itemUsuario {
+    text-decoration: none;
+    color: var(--simil-blanco);
+    padding-left: 5%;
+}
+
+.itemsRedesSociales{
+    display: flex;
+    justify-content: space-between;
+    margin: 40px;
+}
+
 /* 
 footer{
     height: 275px;
