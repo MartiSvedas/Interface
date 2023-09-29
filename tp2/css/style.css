@@ -268,17 +268,35 @@ h2.nombreUsuario{
 /* header */
 
 /* body */
-.carruselGrande li{
-    float: left;
+
+.carruselGrande{
+float: left;
 }
+
+.carruselGrandeUl{
+    overflow: hidden;
+    padding-right: 0%;
+
+}
+.carruselGrandeLi{
+    display: inline-block;
+    box-sizing: border-box;
+    vertical-align:text-bottom;
+   white-space: nowrap;
+   
+}
+
 .cajaCard{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(2, 1fr);
 }
+
 .carruselGrande p{
     position: absolute;
 }
+
+
 
 /* 
 footer{
