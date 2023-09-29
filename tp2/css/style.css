@@ -229,15 +229,15 @@ h2.nombreUsuario{
 }
 
 .itemsUsuarios li{
-padding-left: 20%;
+padding-left: 15%;
 padding-bottom: 8%;
 }
 
 .nav_itemUsuario {
     text-decoration: none;
     color: var(--simil-blanco);
-    padding-left: 5%;
     font-family: 'Nunito', sans-serif;
+    padding-left: 4%;
 }
 
 .itemsRedesSociales{
