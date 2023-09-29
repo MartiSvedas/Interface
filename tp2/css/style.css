@@ -93,7 +93,6 @@ ul{
     list-style: none;
    
 }
-
 .nav_menuJuegos li{
     width: 200px;
     height: 36px;
@@ -218,7 +217,6 @@ a:hover{
 }
 h2.nombreUsuario{
     padding-left: 15px;
-    font-family: Nunito;
 
 }
 .nav_menuUsuario p{
@@ -229,7 +227,8 @@ h2.nombreUsuario{
 }
 
 .itemsUsuarios li{
-padding-left: 15%;
+    display: flex;
+padding-left: 16%;
 padding-bottom: 8%;
 }
 
