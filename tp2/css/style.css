@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@500&family=Roboto:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300&display=swap');
 :root{
     /*color*/
     --color-primario: rgb(53, 33, 102);
@@ -43,7 +45,7 @@ header, footer{
 }
 
 h2{
-    font-family: Nunito;
+    font-family: 'Nunito', sans-serif;
     font-size: 19px;
     font-style: normal;
     font-weight: 700;
@@ -51,19 +53,19 @@ h2{
     letter-spacing: -0.095px;
 }
 h3{
-    font-family: Nunito;
+    font-family: 'Nunito',sans-serif;
     font-size: 16px;
     font-style: normal;
     font-weight: 600;
     line-height: 36px; 
     letter-spacing: -0.08px;
 }
+
 p{
-    font-family: Roboto;
+    font-family: 'Roboto', sans-serif;  
     font-size: 14px;
-    font-style: normal;
     font-weight: 400;
-    line-height: 25px; /* 178.571% */
+    line-height: 25px; 
     letter-spacing: 0.42px;
 }
 
@@ -98,6 +100,8 @@ ul{
     justify-content: center;
     align-items: center;
     padding-top: 9%;
+    font-family: 'Roboto', sans-serif;
+    letter-spacing: 0.65px;
     
 }
 .nav_menuJuegos{
@@ -175,7 +179,7 @@ a:hover{
 .corazon{
     position: absolute;
     top: 22px;
-    right: 90px;
+    right: 95px;
 }
 .misjuegos:hover{
     color: var(--color-secundario);
@@ -233,6 +237,7 @@ padding-bottom: 8%;
     text-decoration: none;
     color: var(--simil-blanco);
     padding-left: 5%;
+    font-family: 'Nunito', sans-serif;
 }
 
 .itemsRedesSociales{
