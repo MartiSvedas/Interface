@@ -24,9 +24,9 @@
 }
 
 body{
+    margin: 0%;
     position: relative;
     width: 1199px;
-    height: 1359px;
     flex-direction: column;
     justify-content: flex-end;
     align-items: flex-start;
@@ -126,7 +126,7 @@ ul{
     top: 6%;
     background-color: var(--color-primario-sombra2);
     border-radius: 6px;
-    border: 2px solid var(--Primario-Sombra1, #291656);
+    border: 2px solid var(--color-primario-sombra1);
     clip-path: polygon(0 0, 0 0, 0 100%, 0% 100%);
     transition: clip-path 0.2s ease-out
    
@@ -222,6 +222,7 @@ a:hover{
     color: var(--simil-blanco);
 
 }
+
 .checkbox:checked ~ .nav_menuUsuario{
     clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
 }
@@ -311,6 +312,43 @@ li .cardGrande{
 }
 
 
+.infocard{
+    position: relative;
+    background-color: var(--simil-blanco);
+    opacity: 0.8;
+    top: -124px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 120px;
+    border-bottom-left-radius: 5%;
+    border-bottom-right-radius: 5%;
+}
+
+.infocardtxt{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin: 0%;
+}
+
+.infocardtxt p{
+    font-weight: bolder;
+    color: var(--simil-negro);
+    font-size: 130%;
+    margin: 4%;
+}
+
+.carrito {
+    height: 60px;
+    position: inherit;
+    top: 40%;
+    right: 2%;
+    border: 2px solid var(--color-denegado);
+    border-radius: 20%;
+}
+
+
 
 
 
@@ -318,7 +356,7 @@ li .cardGrande{
 footer{
     height: 275px;
     align-items: flex-end;
-    margin-top: 20%;
+    margin-top: 5%;
 }
 
 .footertxt{
