@@ -119,11 +119,13 @@ ul{
     opacity: 0.2;
     margin-right:20% ;
     padding-left: 60%;
-    }
+}
 
 .nav_menuJuegos{
     position: absolute;
     top: 6%;
+    left: 0%;
+    z-index: 100;
     background-color: var(--color-primario-sombra2);
     border-radius: 6px;
     border: 2px solid var(--color-primario-sombra1);
@@ -136,7 +138,6 @@ ul{
     text-decoration: none;
     font-weight:bold;
     color: var(--simil-blanco);
-
 }
 
 a:hover{
@@ -212,6 +213,7 @@ a:hover{
     display: block;
     left: 85%;
     top: 6%;
+    z-index: 100;
     width: 317px;
     height: 448px;
     border-radius: 6px;
