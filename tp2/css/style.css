@@ -314,11 +314,11 @@ li .cardGrande{
 
 
 
-/* 
+
 footer{
     height: 275px;
-    align-items: flex-start;
-    
+    align-items: flex-end;
+    margin-top: 20%;
 }
 
 .footertxt{
@@ -326,4 +326,5 @@ footer{
     flex-direction: column;
     flex-wrap: wrap;
     height: 275px;
-} */
+    
+} 
