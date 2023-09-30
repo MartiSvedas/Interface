@@ -62,6 +62,7 @@ h2{
     font-weight: 700;
     line-height: 36px; 
     letter-spacing: -0.095px;
+    color:var(--simil-blanco)
 }
 h3{
     font-family: 'Nunito',sans-serif;
@@ -268,34 +269,45 @@ h2.nombreUsuario{
 /* header */
 
 /* body */
-
-.carruselGrande{
-float: left;
+.body_container h1{
+    margin-bottom: -1%;
+    margin-left: 2%;
+    margin-top: 3%;
 }
 
-.carruselGrandeUl{
-    overflow: hidden;
-    padding-right: 0%;
+ul.carruselUl{
+    display: flex;
+    overflow-x: auto;
+    white-space: nowrap;
+    width: 113%;
+    padding-left: 0%;
+    margin-top: 0%;
 
 }
-.carruselGrandeLi{
-    display: inline-block;
-    box-sizing: border-box;
-    vertical-align:text-bottom;
-   white-space: nowrap;
-   
+::-webkit-scrollbar{
+    display: none;
 }
-
+li.carruselGrandeLi{
+   display: inline-block;
+    vertical-align: middle;
+    margin: 3px;
+}
 .cajaCard{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(2, 1fr);
+
+}
+.cajaCard img{
+    padding: 0px;
+}
+li .cardGrande{
+ padding-top: 3%;
 }
 
-.carruselGrande p{
-    position: absolute;
+.cajaCard .p{
+    padding-top:5%;
 }
-
 
 
 /* 
