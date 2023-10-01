@@ -377,7 +377,11 @@ li.carruselLi{
     bottom: 82%;
 }
 
-
+.etiquetaGratis{
+    position: relative;
+    right: 100%;
+    bottom: 85%;
+}
 
 
 footer{
