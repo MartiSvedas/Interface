@@ -363,7 +363,11 @@ li.carruselLi{
     border-radius: 20%;
 }
 
-
+.etiquetaTendencia{
+    position: relative;
+    right: 37%;
+    bottom: 82%;
+}
 
 
 
