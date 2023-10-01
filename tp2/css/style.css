@@ -306,11 +306,12 @@ li.carruselLi{
     height: 259px;
     align-content: space-between;
     justify-content: space-between;
+    padding: 1.5%;
     padding-top: 2.5%;
 }
 
 .cardChica{
-    height: 128px;
+    height: 119px;
     width: 190px;
 }
 
@@ -322,6 +323,7 @@ li.carruselLi{
 .cardGrande .infocard{
     bottom: 50%;
 }
+
 .infocard{
     position: relative;
     background-color: var(--simil-blanco);
@@ -335,7 +337,6 @@ li.carruselLi{
     height: 49%;
 }
 
-
 .infocardtxt{
     display: flex;
     flex-direction: column;
@@ -343,11 +344,14 @@ li.carruselLi{
     margin: 0%;
 }
 
-.infocardtxt p{
+.infocardtxt p, .infocard p{
     font-weight: bolder;
     color: var(--simil-negro);
-    font-size: 130%;
     margin: 4%;
+}
+
+.txtCardGrande{
+    font-size: 130%;
 }
 
 .carrito {
