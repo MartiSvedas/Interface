@@ -42,7 +42,7 @@ header, footer{
     justify-content: space-between;
     padding: 4px;
     margin: 0%;
-    width: 111%;
+    width: 113%;
 }
 
 h1{
@@ -291,41 +291,50 @@ ul.carruselUl{
 ::-webkit-scrollbar{
     display: none;
 }
+
 li.carruselLi{
    display: inline-block;
     vertical-align: middle;
     margin: 5px;
 }
+
 .cajaCard{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(2, 1fr);
-
-}
-.cajaCard img{
-    padding: 0px;
-}
-li .cardGrande{
- padding-top: 3%;
+    width: 400px;
+    height: 259px;
+    align-content: space-between;
+    justify-content: space-between;
+    padding-top: 2.5%;
 }
 
-.cajaCard .p{
-    padding-top:5%;
+.cardChica{
+    height: 128px;
+    width: 190px;
 }
 
-
+.cardGrande{
+    padding-top: 3%;
+    height: 250px;
+    width: 317px;
+}
+.cardGrande .infocard{
+    bottom: 50%;
+}
 .infocard{
     position: relative;
     background-color: var(--simil-blanco);
     opacity: 0.8;
-    top: -124px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    height: 120px;
-    border-bottom-left-radius: 5%;
-    border-bottom-right-radius: 5%;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    bottom: 52%;
+    height: 49%;
 }
+
 
 .infocardtxt{
     display: flex;
