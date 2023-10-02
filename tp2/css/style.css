@@ -74,11 +74,17 @@ h3{
 }
 
 p{
-    font-family: 'Roboto', sans-serif;  
+    font-family: 'Nunito', sans-serif;  
     font-size: 14px;
     font-weight: 400;
     line-height: 25px; 
     letter-spacing: 0.42px;
+}
+
+li{
+    font-family: 'Nunito', sans-serif;  
+    font-size: 14px;
+    font-weight: 350;
 }
 
 /* header */
@@ -392,14 +398,32 @@ li.carruselLi{
 
 footer{
     height: 275px;
-    align-items: flex-end;
+    align-items: center;
+    justify-content: space-around;
     margin-top: 5%;
+    padding: 2%;
 }
 
 .footertxt{
     display: flex;
     flex-direction: column;
-    flex-wrap: wrap;
     height: 275px;
-    
-} 
+    align-items: center;
+}
+
+.footertxt p, .footerul li{
+    margin: 0%;
+    color: var(--simil-blanco);
+}
+
+.footerul{    
+    margin: 0%;
+    padding: 0%;
+    flex-wrap: wrap;
+    display: flex;
+    flex-direction: column;
+    height: 250px;
+    width: fit-content;
+    justify-content: space-around;
+    align-content: space-between;
+}
