@@ -45,36 +45,39 @@ header, footer{
     width: 113%;
 }
 
-h1{
+h1, h2, h3, p, li{
     font-family: 'Nunito', sans-serif;
-    font-size: 22px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: 48px;
-    letter-spacing: 0.12px;
-    color: var(--simil-blanco);
 }
 
-h2{
-    font-family: 'Nunito', sans-serif;
-    font-size: 19px;
+h1, h2, h3{
     font-style: normal;
+}
+
+h1, h2{
+    color: var(--simil-blanco);
     font-weight: 700;
+}
+
+h1{
+    font-size: 22px;   
+    line-height: 48px;
+    letter-spacing: 0.12px;
+} 
+
+h2{
+    font-size: 19px;
     line-height: 36px; 
     letter-spacing: -0.095px;
-    color:var(--simil-blanco)
 }
+
 h3{
-    font-family: 'Nunito',sans-serif;
     font-size: 16px;
-    font-style: normal;
     font-weight: 600;
     line-height: 36px; 
     letter-spacing: -0.08px;
 }
 
 p{
-    font-family: 'Nunito', sans-serif;  
     font-size: 14px;
     font-weight: 400;
     line-height: 25px; 
@@ -82,7 +85,6 @@ p{
 }
 
 li{
-    font-family: 'Nunito', sans-serif;  
     font-size: 14px;
     font-weight: 350;
 }
@@ -401,7 +403,8 @@ footer{
     align-items: center;
     justify-content: space-around;
     margin-top: 5%;
-    padding: 2%;
+    padding-top: 2%;
+    padding-bottom: 1%;
 }
 
 .footertxt{
