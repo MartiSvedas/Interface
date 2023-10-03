@@ -92,10 +92,11 @@ li{
 /* header */
 
 .nav_labelJuegos{
-    position: absolute;
+    position: relative;
     border-radius: 20px;
-    padding-left: 5%;
-    top:2%
+    left: 90%;
+    padding-top: 60%;
+    display: flex;
 }
 .checkbox{
     opacity: 0;
@@ -176,7 +177,8 @@ a:hover{
     padding-right: 20px;
     width: 477.6px;
     height: 32px;
-    margin: 30%;
+    position: relative;
+    right: 30%;
     justify-content: space-between;
     align-self: center;
     opacity: 0.5;
@@ -309,6 +311,7 @@ li.carruselLi{
    display: inline-block;
     vertical-align: middle;
     margin: 5px;
+    box-shadow: 50%;
 }
 
 .cajaCard{
