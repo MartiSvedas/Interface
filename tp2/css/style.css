@@ -122,7 +122,6 @@ ul{
     padding-top: 9%;
     font-family: 'Roboto', sans-serif;
     letter-spacing: 0.65px;
-    
 }
 
 .division_itemJuegos{
@@ -200,6 +199,11 @@ letter-spacing: -0.095px;
     display: flex;
 }
 
+.li_footerul{
+    color: var(--simil-blanco);
+    text-decoration: none;
+}
+
 a:hover{
     color: var(--color-secundario);
 }
@@ -227,7 +231,7 @@ a:hover{
     position: absolute;
     display: block;
     left: 85%;
-    top: 6%;
+    top: 6.3%;
     z-index: 100;
     width: 317px;
     height: 448px;
