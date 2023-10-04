@@ -59,6 +59,7 @@ h1, h2{
 }
 
 h1{
+    margin: 3%;
     font-size: 22px;   
     line-height: 48px;
     letter-spacing: 0.12px;
