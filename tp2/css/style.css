@@ -82,6 +82,7 @@ p{
     font-weight: 400;
     line-height: 25px; 
     letter-spacing: 0.42px;
+    margin: 0%;
 }
 
 li{
@@ -199,7 +200,7 @@ letter-spacing: -0.095px;
     display: flex;
 }
 
-.li_footerul{
+.li_footerul, .li_breadcrumbs{
     color: var(--simil-blanco);
     text-decoration: none;
 }
@@ -441,4 +442,13 @@ footer{
     width: fit-content;
     justify-content: space-around;
     align-content: space-between;
+}
+
+/**Pagina Juego**/
+
+.breadcrumbs{
+    display: flex;
+    flex-direction: row;
+    color: var(--simil-blanco);
+    text-decoration: underline;
 }
