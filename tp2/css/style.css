@@ -59,7 +59,6 @@ h1, h2{
 }
 
 h1{
-    margin: 3%;
     font-size: 22px;   
     line-height: 48px;
     letter-spacing: 0.12px;
@@ -76,6 +75,7 @@ h3{
     font-weight: 600;
     line-height: 36px; 
     letter-spacing: -0.08px;
+    margin-bottom: 2%;
 }
 
 p{
@@ -452,4 +452,87 @@ footer{
     flex-direction: row;
     color: var(--simil-blanco);
     text-decoration: underline;
+}
+
+.breadcrumbs li, .seccionJuegoInstrucciones p{
+    font-size: 12px;
+}
+
+.titulojuego{
+    margin-left: 3%;
+}
+
+.espaciojuego{
+    margin-top: -2%;
+    height: 650px;
+}
+
+.fondojuego{
+    background-color: var(--simil-negro);
+    opacity: 0.6;
+    width: 808px;
+    height: 650px;
+    border-radius: 10px;
+}
+
+.espaciojuego img{
+    position: relative;
+    bottom: 100%;
+    left: 1.5%;
+    align-self: center;
+    display: flex;
+}
+
+.seccionJuegoInstrucciones{
+    margin: 3%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 1300px;
+}
+
+.instrucciones, .instrucciones .fondo{
+    border-radius: 2%;
+    height: 650px;
+    width: 450px;
+    position: relative;
+    bottom: 4%;
+}
+
+.instrucciones .fondo{
+    background-color: var(--simil-blanco);
+    opacity: 0.35;
+}
+
+.instruccionesYcontroles{
+    position: relative;
+    bottom: 100%;
+    width: 360px;
+    height: 620px;
+    justify-items: center;
+    left: 45px;
+    color: var(--color-primario-sombra2);
+    justify-content: space-between;
+}
+
+.instruccionesYcontroles, .controles {
+    display: flex;
+    flex-direction: column;
+}
+
+.instruccionesTxt li{
+    margin-bottom: 3%;
+    font-weight: 550;
+    text-align: justify;
+}
+
+.controles img{
+    align-self: center;
+}
+
+.detallesJuego{
+    margin-left: 3%;
+    color: var(--simil-blanco);
+    width: 808px;
+    text-align: justify;
 }
