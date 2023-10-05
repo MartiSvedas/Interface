@@ -536,3 +536,20 @@ footer{
     width: 808px;
     text-align: justify;
 }
+
+.imgsDetallesJuego{
+    margin: 2%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+video{
+    height: 119px;
+    width: 200px;
+}
+
+hr{
+    width: 113%;
+    opacity: 0.5;
+}
