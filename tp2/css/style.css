@@ -570,11 +570,12 @@ hr{
 .comentarioTxt{
     display: flex;
     flex-direction: column;
+    width: 670px;
 }
 
 .comentarioBtn{
     position: relative;
-    left: 60%;
+    right: 0%;
     align-self: center;
 }
 
