@@ -207,9 +207,6 @@ letter-spacing: -0.095px;
     text-decoration: none;
 }
 
-a:hover{
-    color: var(--color-secundario);
-}
 .seccionmisjuegos{
     position: absolute;
     top: 12px;
@@ -221,7 +218,7 @@ a:hover{
     top: 22px;
     right: 95px;
 }
-.misjuegos:hover{
+.misjuegos:hover, a:hover{
     color: var(--color-secundario);
 }
 
